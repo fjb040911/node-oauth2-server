@@ -20,7 +20,7 @@ OAuth 2.0定义了一个授权框架，允许用于交换访问令牌的授权�
 API
 ===
 
-以下是passport-strategy认证策略的API
+以下是和passport-strategy认证策略的API对应关系
 
 * `/dialog/authorize` is the `authorizationURL`.
 * `/oauth/token` is the `tokenURL`
