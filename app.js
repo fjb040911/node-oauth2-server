@@ -27,6 +27,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.get('/login', oauthController.loginForm);
 app.post('/login', oauthController.login);
+app.get('/logout', oauthController.logout);
 
 app.get('/dialog/authorize', auth2.authorization);
 app.post('/dialog/authorize/decision', auth2.decision);
