@@ -11,11 +11,11 @@ node-oauth2-server 是一个基于 Node.js 的认证服务. 结合了 [Passport]
 ## Usage
 
 OAuth 2.0定义了一个授权框架，允许用于交换访问令牌的授权授权。
-这里以下四种模式都支持
-授权码模式（authorization code）
-简化模式（implicit）
-密码模式（resource owner password credentials）
-客户端模式（client credentials）
+这里以下四种模式都支持</br>
+授权码模式（authorization code）</br>
+简化模式（implicit）</br>
+密码模式（resource owner password credentials）</br>
+客户端模式（client credentials）</br>
 
 API
 ===
